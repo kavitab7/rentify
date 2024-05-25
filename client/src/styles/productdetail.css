@@ -1,0 +1,31 @@
+.property-details {
+    margin-top: 100px !important;
+}
+
+.property-details-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.property-details-info .price {
+    color: green;
+}
+
+.property-details-info button {
+    background-color: #f5d019;
+    border: none;
+    color: black;
+}
+
+.property-details-info h6,
+h5 {
+    margin-bottom: 20px !important;
+}
+
+
+
+.detail-img {
+    width: 90%;
+    padding: 18px;
+}

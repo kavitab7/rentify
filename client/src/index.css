@@ -1,0 +1,87 @@
+#root {
+  overflow: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  overflow-x: hidden;
+}
+
+
+/* //navbar css */
+.navbar {
+  font-size: 17px;
+  line-height: 26px;
+  text-transform: uppercase;
+  background-color: #319965;
+}
+
+.nav-link {
+  font-weight: 300 !important;
+  margin-left: 20px;
+  color: black !important;
+}
+
+
+.navbar-brand {
+  font-weight: 700;
+  font-family: "roboto", sans-serif;
+  letter-spacing: 3px;
+  color: black;
+  padding-left: 5px;
+}
+
+
+
+/* ==================== */
+.property-link {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+.cat-btn {
+  padding: 40px 0px;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.cat-btn:hover {
+  background-color: #434343;
+  color: white;
+}
+
+/* ================
+====dashboard
+=================== */
+
+.dashboard {
+  margin-top: 70px !important;
+
+}
+
+.dashboard-menu h4 {
+  background-color: #434343 !important;
+  color: white;
+  padding: 20px 0px;
+}
+
+.dashboard-menu .list-group-item.active {
+  background-color: #04062d;
+  border: none;
+}
+
+.dashboard-menu {
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width:1110px) {
+  .dashboard-menu {
+    width: 53vw;
+  }
+}
